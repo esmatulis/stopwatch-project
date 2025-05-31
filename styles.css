@@ -1,0 +1,90 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #9f9dbc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+  }
+  
+  .container {
+    background: rgb(70, 71, 109);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(56, 56, 56, 0.2);
+    width: 320px;
+  }
+  
+  #display {
+    font-size: 2.5em;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  .buttons button {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 1em;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    width: 100px;
+    background-image: 
+      linear-gradient(to right, #46476d, #46476d), /* inner background */
+      linear-gradient(to bottom, rgb(250, 26, 45), rgb(150, 43, 131));  /* gradient border */
+  }
+  
+
+  
+  
+  #laps {
+    text-align: left;
+    height: 200px;
+    overflow-y: auto;
+  }
+  
+  #lapList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #lapList li {
+    padding: 5px 0;
+    font-size: 1em;
+    background: #3c3960;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin: 10px;
+    display: flex;
+  }
+
+  #lapList li div {
+    width: 60px;
+  }
+
+  #lapList li div:first-child {
+    flex-grow: 1;
+  }
+  
+
+  #lap {
+    background: none;
+    font-size: 14px;
+    font-style: italic;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+  }
